@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+}
+
+.카타타 {
+  height: 500px;
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.카타타::before {
+  content: "";
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77ba0138-bccf-4d19-ad78-1b049b2d741b/de9eiot-339397f6-f1cd-4838-884c-819a45e525ec.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc3YmEwMTM4LWJjY2YtNGQxOS1hZDc4LTFiMDQ5YjJkNzQxYlwvZGU5ZWlvdC0zMzkzOTdmNi1mMWNkLTQ4MzgtODg0Yy04MTlhNDVlNTI1ZWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gkT2-A43BwunIEvTm69Rlo-_Y2TP568XvcGTkhUJM6M);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+}
+
+h1 {
+  color: purple;
+  font-size: 120px;
+  font-family: sans-serif;
+}
